@@ -1,0 +1,30 @@
+*{
+	margin:0;
+	padding: 0;
+
+}
+.main-container{
+	line-height: 80px;
+}
+.container{
+	background-color: skyblue;
+	display: flex;
+	flex-direction: row;
+	padding-left: 750px;
+
+}
+a{
+	margin-left: 15px;
+	font-family: verdana;
+	font-size: 20px;
+	text-decoration: none;
+	color: darkblue;
+
+}
+a:hover{
+	background-color: blue;
+	transition: 0.2s;
+	border-radius: 5px;
+	margin-top: 10px;
+    height: 60px;
+}
